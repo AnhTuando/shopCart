@@ -1,0 +1,72 @@
+.btn-red {
+  border: 1px solid rgb(252, 38, 38);
+  background-color: transparent;
+  color: rgb(252, 38, 38);
+}
+.btn-gray {
+  border: 1px solid gray;
+  background-color: transparent;
+  color: gray;
+}
+.btn-blue {
+  border: 1px solid rgb(7, 73, 255);
+  background-color: rgb(7, 73, 255);
+  color: white;
+}
+.btn-green {
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+}
+.img-product {
+  height: 200px;
+}
+.btn-gray:hover {
+  border: 1px solid rgb(7, 73, 255);
+  background-color: rgb(7, 73, 255);
+  color: white;
+  transition: 0.5s;
+}
+.sub-img {
+  width: 100px;
+  object-fit: cover;
+  height: 100px;
+}
+.input-quantity {
+  width: 50px;
+}
+select:focus {
+  outline: none;
+  padding: 20px;
+}
+.add-to-cart-btn:hover {
+  background-color: rgb(252, 38, 38);
+  color: white;
+  border: none;
+}
+.cart-items {
+  height: 500px;
+  overflow-y: auto;
+}
+.fit-content {
+  width: fit-content;
+  height: fit-content;
+}
+.input-coupon:focus {
+  outline: none;
+}
+.wrap-pop-up {
+  background-color: rgba(46, 46, 46, 0.5);
+}
+.pop-up {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+.close {
+  border: none;
+}
